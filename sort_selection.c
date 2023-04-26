@@ -17,3 +17,12 @@ void sort_selection(int arr[], int size)
 
     }
 }
+
+int main()
+{
+	int arr[5]={32,5,7,56,78};
+	
+    printf("the sorted list is:\n");
+    return sort_selection(arr,5);
+    return 0;
+}
