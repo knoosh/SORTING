@@ -13,3 +13,11 @@ int sort_insertion(int arr[], int size)
     }
 return 0;
 }
+
+int main()
+{
+	int arr[5]={32,5,7,56,78};
+	
+    return sort_insertion(arr,5);
+    return 0;
+}
