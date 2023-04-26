@@ -19,3 +19,12 @@ int sort_bubble(int arr[], int size)
     }
 return 0;
 }
+
+int main()
+{
+	int arr[5]={32,5,7,56,78};
+	
+    printf("the sorted list is:\n");
+    return sort_bubble(arr,5);
+    return 0;
+}
